@@ -11,4 +11,8 @@
     <color name="search_btn_bg">#fafafa</color>
     <color name="search_bar_false_bg">#898e92</color>
     <color name="font_red">#fd2626</color>
+    <color name="shezhi_bg">#f7f7f7</color>
+    <color name="shezhi_font_bk">#3d3d3d</color>
+    <color name="setting_clear_bk">#b8b8b8</color>
+    <color name="blak">#000000</color>
 </resources>

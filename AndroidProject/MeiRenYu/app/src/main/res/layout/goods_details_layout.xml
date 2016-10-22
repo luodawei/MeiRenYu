@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:text="加入购物车"
             android:gravity="center"
-            android:background="@color/font_red"
+            android:background="#c51005"
             android:textColor="@color/font_white"
             android:textSize="15sp"
             android:paddingTop="17dp"

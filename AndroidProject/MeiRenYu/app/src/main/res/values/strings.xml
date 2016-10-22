@@ -10,4 +10,15 @@
     <string name="yoga_mat">专业瑜伽垫</string>
     <string name="first_yoga_colthes">初学者瑜伽服</string>
     <string name="yuga_xiangxun">瑜伽香薰</string>
+    <string-array name="message">
+        <item>商品名称</item>
+        <item>请输入关键字</item>
+        <item>热门搜索</item>
+        <item>历史搜索</item>
+        <item>初学者瑜伽服</item>
+        <item>瑜伽香薰</item>
+        <item>专业瑜伽垫</item>
+        <item>瑜伽服</item>
+    </string-array>
+
 </resources>

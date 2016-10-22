@@ -83,6 +83,7 @@
     </LinearLayout>
     <!--热门搜索栏-->
     <LinearLayout
+        android:id="@+id/hot_search_caidan"
         android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -228,6 +229,7 @@
     </LinearLayout>
     <!--历史搜索提示栏-->
     <LinearLayout
+        android:id="@+id/history_search_caidan"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
