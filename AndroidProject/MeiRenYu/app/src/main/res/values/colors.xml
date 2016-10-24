@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="head_green">#2fd2d0</color>
+    <color name="gray_black">#898e92</color>
+    <color name="line_bg">#dcdddf</color>
+    <color name="font_white">#ffffff</color>
+    <color name="search_btn_bg">#fafafa</color>
+    <color name="search_bar_false_bg">#898e92</color>
+    <color name="font_red">#fd2626</color>
+    <color name="shezhi_bg">#f7f7f7</color>
+    <color name="shezhi_font_bk">#3d3d3d</color>
+    <color name="setting_clear_bk">#b8b8b8</color>
+    <color name="blak">#000000</color>
+</resources>
