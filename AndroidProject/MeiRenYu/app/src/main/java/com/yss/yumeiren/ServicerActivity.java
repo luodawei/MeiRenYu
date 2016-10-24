@@ -42,6 +42,7 @@ public class ServicerActivity extends Activity {
                     to);
             serviceMessageListView.setAdapter(simpleAdapter);
         }
+
     }
     List<HashMap<String,Object>> list=new ArrayList<HashMap<String,Object>>();
     public List<HashMap<String,Object>> getMessageDate(){
