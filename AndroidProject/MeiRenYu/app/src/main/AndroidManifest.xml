@@ -13,5 +13,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GoodsDetailaActivity"/>//购物详情页面
+        <activity android:name=".SettingActivity"/>//设置页面
+        <activity android:name=".ServicerActivity"/>//客服页面
+        <activity android:name=".GoodsSearchActivity"/>商品搜索页面
+        <activity android:name=".MessageTiShiActivity"/>消息提示页面
     </application>
 </manifest>
