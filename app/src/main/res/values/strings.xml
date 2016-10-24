@@ -1,0 +1,55 @@
+<resources>
+    <string name="shuo_ye">首页</string>
+    <string name="gouwu_che">购物车</string>
+    <string name="gouwuche_kongbai">什么都还没有诶\n不来一点吗？</string>
+    <string name="bianji">编辑</string>
+    <string name="jiesuanjieshao01">梵酷初学加厚型瑜伽垫*1</string>
+    <string name="jiesuanguige01">颜色:蓝色  大小:标准尺寸</string>
+    <string name="jiesuanjieshao02">健身瑜伽服两件套*1</string>
+    <string name="jiesuanguige02">颜色:黑色 大小:M</string>
+    <string name="jiesuan">结算:</string>
+    <string name="jiege">价格:</string>
+    <string name="shanchu">删除</string>
+    <string name="ding_dan">订单</string>
+    <string name="jiazaiIng">加载ING</string>
+    <string name="qingkong">清空</string>
+    <string name="shangcheng_problem">是不是哪里出 \n 了什么问题？</string>
+    <string name="my_order">我的订单</string>
+    <string name="quanbu">全部</string>
+    <string name="daifukuan">待付款</string>
+    <string name="daifahuo">待发货</string>
+    <string name="daishouhuo">待收货</string>
+    <string name="jianyiyijian">建议意见</string>
+    <string name="xiejianyiyijian">写出您对我们的建议或意见</string>
+    <string name="tijiao">提交</string>
+    <string name="jiaoyichenggong">交易成功</string>
+    <string name="heji">合计:</string>
+    <string name="pingjia">评价</string>
+    <string name="xiugaimima">修改密码</string>
+    <string name="jiumima">旧密码:</string>
+    <string name="mimahint">6-16个字符，区分大小写</string>
+    <string name="xinmima">新密码:</string>
+    <string name="querenmima">请再次确认密码:</string>
+    <string name="queding">确定</string>
+    <string name="jifen">积分</string>
+    <string name="xiangguantuijian">相关推荐</string>
+
+
+
+
+    <string name="app_shop">美人域商城</string>
+    <string name="change_scores">积分换好礼</string>
+    <string name="shangcheng_hint">专业瑜伽垫</string>
+    <string name="yujiafu">瑜伽服</string>
+    <string name="yujiadian">瑜伽垫</string>
+    <string name="qitashangpin">其它商品</string>
+    <string name="tuijianshangpin">推荐商品</string>
+    <string name="modaier">莫代尔专业瑜伽服</string>
+    <string name="aimida">艾米达加厚型瑜伽服</string>
+    <string name="paipuyujiazhuan">派普瑜伽砖</string>
+    <string name="shouye">首页</string>
+    <string name="gouwuche">购物车</string>
+    <string name="zaixiankefu">在线客服</string>
+
+
+</resources>
