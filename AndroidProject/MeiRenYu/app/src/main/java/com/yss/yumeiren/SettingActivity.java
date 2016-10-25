@@ -142,6 +142,7 @@ public class SettingActivity extends Activity {
                         Toast.makeText(SettingActivity.this,"字体大小设置为标准",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.font_da:
+                      /*设置大字体监听*/
                         dahao.setBackground(getResources().getDrawable(R.mipmap.gou_true_image));
                         biaozhun.setBackgroundColor(getResources().getColor(R.color.white));
                         xiaohao.setBackgroundColor(getResources().getColor(R.color.white));
@@ -149,11 +150,21 @@ public class SettingActivity extends Activity {
                     Toast.makeText(SettingActivity.this,"字体大小设置为大号",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.font_teda:
+                    /*设置特大字体监听*/
                         teda.setBackground(getResources().getDrawable(R.mipmap.gou_true_image));
                         biaozhun.setBackgroundColor(getResources().getColor(R.color.white));
                         dahao.setBackgroundColor(getResources().getColor(R.color.white));
                         xiaohao.setBackgroundColor(getResources().getColor(R.color.white));
                     Toast.makeText(SettingActivity.this,"字体大小设置为特大号",Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.push_message_btn:
+                    /*消息推送按钮监听事件*/
+                    break;
+                case R.id.saving_flow_btn:
+                    /*节省流量按钮监听事件*/
+                    break;
+                case R.id.volume_btn_to_Page:
+                    /*设置音量键翻页按钮监听事件*/
                     break;
             }
         }
