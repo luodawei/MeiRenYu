@@ -25,12 +25,11 @@ public class SettingActivity extends Activity {
     TextView exitText;//退出按钮
     TextView exitBtn;//退出登录按钮
     Button canceBtn;//取消取出登录按钮
-    TextView fontsetting;
-
-    TextView xiaohao;
-    TextView biaozhun;
-    TextView dahao;
-    TextView teda;
+    TextView fontsetting;//字体设置按钮
+    TextView xiaohao;//小号设置按钮
+    TextView biaozhun;//标准字体设置按钮
+    TextView dahao;//大号字体设置按钮
+    TextView teda;//特大号字体设置按钮
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,9 +90,9 @@ public class SettingActivity extends Activity {
         dahao.setOnClickListener(onClickListener);
         teda=(TextView)fontView.findViewById(R.id.font_teda);
         teda.setOnClickListener(onClickListener);
-        builder.setView(fontView);
-        alertDialog=builder.create();
-        alertDialog.show();
+        builder.setView(fontView);//设置自定义对话框view视图
+        alertDialog=builder.create();//获得一个alertdialog对象
+        alertDialog.show();//设置字体弹出框显示
     }
     //设置点击事件监听
     View.OnClickListener onClickListener=new View.OnClickListener() {
@@ -102,32 +101,40 @@ public class SettingActivity extends Activity {
             switch (v.getId()){
                 //清除缓存事件
                 case R.id.clear_huancun:
+                    /*清除缓存按钮弹出框点击事件*/
                     createClearDialog();
                     break;
                 case R.id.yes:
+                       /*清除缓存弹出框确认按钮点击事件*/
                     alertDialog.dismiss();
                     Toast.makeText(SettingActivity.this,"恭喜您成功清除缓存",Toast.LENGTH_LONG).show();
                     break;
                 case R.id.no:
+                    /*清除缓存弹出框取消按钮点击事件*/
                     alertDialog.dismiss();
                     Toast.makeText(SettingActivity.this,"恭喜您成功取消清除缓存",Toast.LENGTH_LONG).show();
                     break;
                 //退出事件
                 case R.id.exit_text:
+
                     createExitDialog();
                     break;
                 case R.id.exit_btn:
+                    /*退出弹出框确认按钮点击事件*/
                     alertDialog.dismiss();
                     Toast.makeText(SettingActivity.this,"恭喜您成功退出",Toast.LENGTH_LONG).show();
                     break;
                 case R.id.cance_btn:
+                    /*退出弹出框取消按钮点击事件*/
                     alertDialog.dismiss();
                     Toast.makeText(SettingActivity.this,"恭喜您成功取消退出",Toast.LENGTH_LONG).show();
                     break;
                 case R.id.font_setting:
+                    /*设置字体弹出框点击事件*/
                     createFontDialog();
                     break;
                 case R.id.font_xiao:
+                    /*小号字体点击事件*/
                         xiaohao.setBackground(getResources().getDrawable(R.mipmap.gou_true_image));
                         biaozhun.setBackgroundColor(getResources().getColor(R.color.white));
                         dahao.setBackgroundColor(getResources().getColor(R.color.white));
@@ -135,6 +142,7 @@ public class SettingActivity extends Activity {
                     Toast.makeText(SettingActivity.this,"字体大小设置小号",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.font_biaozhun:
+                    /*标准字体点击事件*/
                         biaozhun.setBackground(getResources().getDrawable(R.mipmap.gou_true_image));
                         xiaohao.setBackgroundColor(getResources().getColor(R.color.white));
                         dahao.setBackgroundColor(getResources().getColor(R.color.white));
