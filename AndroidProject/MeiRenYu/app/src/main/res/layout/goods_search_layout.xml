@@ -35,20 +35,27 @@
         android:padding="13dp"
         android:background="@color/search_btn_bg"
         />
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/search_edit_hint"
-        android:background="@drawable/search_edittext_style"
-        android:paddingLeft="10dp"
-        android:paddingTop="6dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="5dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginTop="10dp"
-        android:drawableRight="@mipmap/search_right_image"
-        />
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_edit_hint"
+            android:background="@drawable/search_edittext_style"
+            android:paddingLeft="10dp"
+            android:paddingTop="6dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@mipmap/search_right_image"
+            />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -234,6 +241,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/history_menu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
         <!--第一列-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -358,13 +372,15 @@
                 android:id="@+id/search_qingchu_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/search_hot_text"
+                android:text="清除搜索记录"
                 android:textSize="20sp"
                 android:textColor="@color/font_white"
-                android:background="@color/head_green"
+                android:background="@drawable/search_tishi_style"
                 android:gravity="center"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
                 android:layout_alignParentRight="true"/>
         </RelativeLayout>
     </LinearLayout>
