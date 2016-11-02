@@ -20,5 +20,53 @@
         <item>专业瑜伽垫</item>
         <item>瑜伽服</item>
     </string-array>
+    <string name="text_demo">演示文本</string>
+    <string name="my_plan">我的计划</string>
+    <string name="delete">删除</string>
+    <string name="my_plan_time">时间</string>
+    <string name="my_plan_title">标题</string>
+    <string name="my_plan_content">内容</string>
+    <string name="share_app">分享软件</string>
+    <string name="share_title">让好友扫码和你一起瑜伽吧！</string>
+    <string name="share_ways">或通过以下方式分享</string>
+    <string name="share_to_weixin_friends">分享给微信好友</string>
+    <string name="share_to_friend_zone">分享到朋友圈</string>
+    <string name="not_logged_in">未登录</string>
+    <string name="log_in">登录</string>
+    <string name="fans">粉丝</string>
+    <string name="attention">关注</string>
+    <string name="scores">积分</string>
+    <string name="my_friends">我的好友</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="my_post">我的帖子</string>
+    <string name="relative_recommend">相关推荐</string>
+    <string name="home_page">首页</string>
+    <string name="the_pool">瑜池</string>
+    <string name="shop">商城</string>
+    <string name="mine">我的</string>
+    <string name="my_sign">瑜伽，身体和心灵的放松</string>
+    <string name="set">设置</string>
+    <string name="hint_input_account">请输入手机号/账号</string>
+    <string name="hint_input_password">请输入6-12位密码</string>
+    <string name="hint_input_verification_code">请输入验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="read_and_agree">阅读并同意《用户协议》</string>
+    <string name="register_now">立即注册</string>
+    <string name="other_ways_login">第三方登录</string>
+    <string name="ali_pay">支付宝</string>
+    <string name="weixin">微信</string>
+    <string name="weibo">微博</string>
+    <string name="login_now">立即登录</string>
+    <string name="bind_weibo">绑定微博</string>
+    <string name="bind_now">立即绑定</string>
+    <string name="about_us">关于我们</string>
+    <string name="check_for_update">检查更新</string>
+    <string name="advice">建议意见</string>
+    <string name="give_us_the_points">为我们打分</string>
+    <string name="teams_and_agreements">使用条款和隐私协议</string>
+    <string name="teams_content">人鱼公司版权所有\nCoryright @ 2011-2016 renyu.\nAll Rights Reserved</string>
+    <string name="chat_content">你的八块腹肌练得怎么样了</string>
+    <string name="chat_friend">异域至尊</string>
+    <string name="send">发送</string>
 
 </resources>
