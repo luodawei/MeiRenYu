@@ -52,12 +52,13 @@
                         android:textColor="@color/shezhi_font_bk"
                         android:layout_alignParentLeft="true"
                         android:layout_marginLeft="10dp"/>
-                    <TextView
-                        android:id="@+id/push_message_btn"
+                    <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:checked="true"
                         android:layout_alignParentRight="true"
-                        android:drawableRight="@mipmap/btn_true_image"
+                        android:drawableRight="@drawable/check_btn_selector"
                         android:layout_marginRight="15dp"/>
                 </RelativeLayout>
                 <TextView
@@ -91,12 +92,13 @@
                             android:textColor="@color/shezhi_font_bk"
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
-                        <TextView
-                            android:id="@+id/saving_flow_btn"
+                        <CheckBox
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:checked="true"
                             android:layout_alignParentRight="true"
-                            android:drawableRight="@mipmap/btn_false_image"
+                            android:drawableRight="@drawable/check_btn_selector"
                             android:layout_marginRight="15dp"/>
                     </RelativeLayout>
                     <View
@@ -118,12 +120,13 @@
                             android:textColor="@color/shezhi_font_bk"
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
-                        <TextView
-                            android:id="@+id/volume_btn_to_Page"
+                        <CheckBox
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:checked="true"
                             android:layout_alignParentRight="true"
-                            android:drawableRight="@mipmap/btn_false_image"
+                            android:drawableRight="@drawable/check_btn_selector"
                             android:layout_marginRight="15dp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -151,6 +154,7 @@
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
                         <TextView
+                            android:id="@+id/message_setting_btn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"

@@ -1,6 +1,7 @@
 package com.yss.yumeiren;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
@@ -30,6 +31,8 @@ public class SettingActivity extends Activity {
     TextView biaozhun;//标准字体设置按钮
     TextView dahao;//大号字体设置按钮
     TextView teda;//特大号字体设置按钮
+    TextView messageSettingBtn;//设置页面消息提示按钮
+    TextView settingBackBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,9 +40,14 @@ public class SettingActivity extends Activity {
         clearhuancun= (TextView) findViewById(R.id.clear_huancun);
         exitText= (TextView) findViewById(R.id.exit_text);
         fontsetting= (TextView) findViewById(R.id.font_setting);
+        messageSettingBtn= (TextView) findViewById(R.id.message_setting_btn);
+        settingBackBtn= (TextView) findViewById(R.id.search_back_btn);
+        //设置监听
         fontsetting.setOnClickListener(onClickListener);
         exitText.setOnClickListener(onClickListener);
         clearhuancun.setOnClickListener(onClickListener);
+        messageSettingBtn.setOnClickListener(onClickListener);
+        settingBackBtn.setOnClickListener(onClickListener);
     }
     //创建ClearDialog方法
     public void createClearDialog(){
@@ -164,6 +172,15 @@ public class SettingActivity extends Activity {
                         dahao.setBackgroundColor(getResources().getColor(R.color.white));
                         xiaohao.setBackgroundColor(getResources().getColor(R.color.white));
                     Toast.makeText(SettingActivity.this,"字体大小设置为特大号",Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.message_setting_btn:
+                    //消息提示按钮监听事件
+                    Intent intent=new Intent(SettingActivity.this,MessageTiShiActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.search_back_btn:
+                    //设置页面返回按钮点击监听事件，当点击按钮时，结束当前Activity
+                    finish();
                     break;
                 case R.id.push_message_btn:
                     /*消息推送按钮监听事件*/
