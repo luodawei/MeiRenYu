@@ -25,4 +25,7 @@
     <color name="shezhi_font_bk">#3d3d3d</color>
     <color name="setting_clear_bk">#b8b8b8</color>
     <color name="blak">#000000</color>
+    <color name="main_blue">#2FD2D1</color>
+    <color name="light_gray">#B5B5B5</color>
+    <color name="gray_white">#D1D1D1</color>
 </resources>
