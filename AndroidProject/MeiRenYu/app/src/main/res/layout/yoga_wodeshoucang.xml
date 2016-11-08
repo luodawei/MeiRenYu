@@ -42,13 +42,13 @@
             android:text="更新至"
             android:textColor="#B8B8B8"
             android:textSize="12sp"
-            android:layout_toLeftOf="@id/louceng"/>
+            android:layout_toLeftOf="@+id/louceng"/>
 
         <TextView
             android:id="@+id/louceng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/tex2"
+            android:layout_toLeftOf="@+id/tex2"
             android:text="68"
             android:textColor="#F36363"
             android:textSize="15sp" />
@@ -83,13 +83,13 @@
             android:text="更新至"
             android:textColor="#B8B8B8"
             android:textSize="12sp"
-            android:layout_toLeftOf="@id/louceng2"/>
+            android:layout_toLeftOf="@+id/louceng2"/>
 
         <TextView
             android:id="@+id/louceng2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/tex4"
+            android:layout_toLeftOf="@+id/tex4"
             android:text="68"
             android:textColor="#F36363"
             android:textSize="15sp" />
