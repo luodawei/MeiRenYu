@@ -1,4 +1,4 @@
-package meirenyu;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/24.
  */
 
+<<<<<<< HEAD:AndroidProject/MeiRenYu/app/src/main/java/meirenyu/SetLogin.java
 public class SetLogin extends Activity {
     TextView btnLogin;
     TextView btnRegister;
@@ -23,6 +24,13 @@ public class SetLogin extends Activity {
         btnRegister = (TextView) findViewById(R.id.btn_register);
         btnLogin.setOnClickListener(onClickListener);
         btnRegister.setOnClickListener(onClickListener);
+=======
+public class SetRegisterActivity extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login_set);
+>>>>>>> develop:AndroidProject/MeiRenYu/app/src/main/java/com/xx/meirenyu/activity/SetRegisterActivity.java
     }
 
     View.OnClickListener onClickListener = new View.OnClickListener() {

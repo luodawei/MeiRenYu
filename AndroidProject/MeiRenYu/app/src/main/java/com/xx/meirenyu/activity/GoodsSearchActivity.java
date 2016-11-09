@@ -1,4 +1,4 @@
-package com.yss.yumeiren;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.yss.yumeiren.R;
 
 import java.util.ArrayList;
 
@@ -26,7 +28,7 @@ public class GoodsSearchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.goods_search_layout);
+        setContentView(R.layout.activity_goods_search);
         /*初始化*/
         searchHotBtn= (TextView) findViewById(R.id.search_hot);
         searchHistoryBtn= (TextView) findViewById(R.id.search_history);

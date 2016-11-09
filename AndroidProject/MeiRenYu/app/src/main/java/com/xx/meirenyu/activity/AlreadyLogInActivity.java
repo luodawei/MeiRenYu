@@ -1,4 +1,4 @@
-package meirenyu;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/23.
  */
 
+<<<<<<< HEAD:AndroidProject/MeiRenYu/app/src/main/java/meirenyu/HaveLoggedIn.java
 public class HaveLoggedIn extends Activity {
     LinearLayout myFriendLayout;
     LinearLayout myPlanLayout;
@@ -35,6 +36,13 @@ public class HaveLoggedIn extends Activity {
         myPostLayout.setOnClickListener(onClickListener);
         relativeRecommendLayout.setOnClickListener(onClickListener);
         shareAppLayout.setOnClickListener(onClickListener);
+=======
+public class AlreadyLogInActivity extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_already_log_in);
+>>>>>>> develop:AndroidProject/MeiRenYu/app/src/main/java/com/xx/meirenyu/activity/AlreadyLogInActivity.java
     }
 
     View.OnClickListener onClickListener = new View.OnClickListener() {
