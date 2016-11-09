@@ -1,4 +1,4 @@
-package meirenyu;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,16 +12,16 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/23.
  */
 
-public class Login extends Activity {
+public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.activity_login);
         TextView login = (TextView)findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this,HaveLoggedIn.class);
+                Intent intent = new Intent(LoginActivity.this, AlreadyLogInActivity.class);
                 startActivity(intent);
             }
         });

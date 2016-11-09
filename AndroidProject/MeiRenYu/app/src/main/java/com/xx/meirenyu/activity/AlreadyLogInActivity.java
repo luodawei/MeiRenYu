@@ -1,4 +1,4 @@
-package meirenyu;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/23.
  */
 
-public class HaveLoggedIn extends Activity {
+public class AlreadyLogInActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.have_logged_in);
+        setContentView(R.layout.activity_already_log_in);
     }
 }

@@ -1,4 +1,4 @@
-package meirenyu.adapter;
+package com.xx.meirenyu.utill.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -38,7 +38,7 @@ public class MyPlanAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(context);
         if (convertView == null){
-            convertView = inflater.inflate(R.layout.my_plan_item,null);
+            convertView = inflater.inflate(R.layout.my_plan_lv_item,null);
         }
         TextView myPlanContent = (TextView)convertView.findViewById(R.id.my_plan_content);
         myPlanContent.setText(content[position]+position);

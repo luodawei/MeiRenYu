@@ -1,4 +1,4 @@
-package com.yss.yumeiren;
+package com.xx.meirenyu.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.yss.yumeiren.R;
 
 /**
  * Created by Administrator on 2016/10/19.
@@ -36,7 +38,7 @@ public class SettingActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.setting_layout);
+        setContentView(R.layout.activity_setting);
         clearhuancun= (TextView) findViewById(R.id.clear_huancun);
         exitText= (TextView) findViewById(R.id.exit_text);
         fontsetting= (TextView) findViewById(R.id.font_setting);
@@ -53,7 +55,7 @@ public class SettingActivity extends Activity {
     public void createClearDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View view=layoutInflater.inflate(R.layout.clear_huancun_dialog,null);
+        View view=layoutInflater.inflate(R.layout.dialog_clear_cache,null);
         //给确认和取消设置监听
         yesBtn= (Button) view.findViewById(R.id.yes);
         noBtn= (Button) view.findViewById(R.id.no);
@@ -71,7 +73,7 @@ public class SettingActivity extends Activity {
     public void createExitDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View view=layoutInflater.inflate(R.layout.exit_dialog_layout,null);
+        View view=layoutInflater.inflate(R.layout.dialog_log_off,null);
         //给确认和取消设置监听
         exitBtn= (TextView) view.findViewById(R.id.exit_btn);
         canceBtn= (Button) view.findViewById(R.id.cance_btn);
@@ -89,7 +91,7 @@ public class SettingActivity extends Activity {
     public void createFontDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View fontView=layoutInflater.inflate(R.layout.font_listview_item,null);
+        View fontView=layoutInflater.inflate(R.layout.dialog_set_font,null);
         xiaohao=(TextView)fontView.findViewById(R.id.font_xiao);
         xiaohao.setOnClickListener(onClickListener);
         biaozhun=(TextView)fontView.findViewById(R.id.font_biaozhun);
@@ -175,7 +177,7 @@ public class SettingActivity extends Activity {
                     break;
                 case R.id.message_setting_btn:
                     //消息提示按钮监听事件
-                    Intent intent=new Intent(SettingActivity.this,MessageTiShiActivity.class);
+                    Intent intent=new Intent(SettingActivity.this,MessageHintActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.search_back_btn:
