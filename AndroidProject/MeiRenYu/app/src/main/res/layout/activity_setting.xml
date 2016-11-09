@@ -4,38 +4,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/shezhi_bg">
+    <!--导航栏-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/head_green">
+        <TextView
+            android:id="@+id/search_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/back_btn"
+            android:layout_margin="12dp"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/search_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="24sp"
+            android:textColor="@color/font_white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ScrollView
             android:id="@+id/setting_layout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <!--导航栏-->
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/head_green">
-                    <TextView
-                        android:id="@+id/search_back_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableLeft="@mipmap/back_btn"
-                        android:layout_margin="12dp"
-                        android:layout_alignParentLeft="true"/>
-                    <TextView
-                        android:id="@+id/search_title_textview"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="设置"
-                        android:textSize="24sp"
-                        android:textColor="@color/font_white"
-                        android:layout_centerInParent="true"/>
-                </RelativeLayout>
                 <!--推送消息-->
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -53,6 +54,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginLeft="10dp"/>
                     <CheckBox
+                        android:id="@+id/push_message_btn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:button="@null"
@@ -93,6 +95,7 @@
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
                         <CheckBox
+                            android:id="@+id/saving_flow_btn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@null"
@@ -121,6 +124,7 @@
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
                         <CheckBox
+                            android:id="@+id/volume_btn_to_Page"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@null"
@@ -184,6 +188,7 @@
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
                         <TextView
+                            android:id="@+id/set_weiBo_btn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -305,6 +310,7 @@
                             android:layout_alignParentLeft="true"
                             android:layout_marginLeft="10dp"/>
                         <TextView
+                            android:id="@+id/about_us_btn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"

@@ -34,7 +34,10 @@ public class SettingActivity extends Activity {
     TextView dahao;//大号字体设置按钮
     TextView teda;//特大号字体设置按钮
     TextView messageSettingBtn;//设置页面消息提示按钮
-    TextView settingBackBtn;
+    TextView settingBackBtn;//返回按钮
+    TextView setWeiBoBtn;//微博绑定按钮
+    TextView aboutUsBtn;//关于我们跳转按钮
+    Intent intent;//跳转意图
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,12 +47,16 @@ public class SettingActivity extends Activity {
         fontsetting= (TextView) findViewById(R.id.font_setting);
         messageSettingBtn= (TextView) findViewById(R.id.message_setting_btn);
         settingBackBtn= (TextView) findViewById(R.id.search_back_btn);
+        setWeiBoBtn= (TextView) findViewById(R.id.set_weiBo_btn);
+        aboutUsBtn= (TextView) findViewById(R.id.about_us_btn);
         //设置监听
         fontsetting.setOnClickListener(onClickListener);
         exitText.setOnClickListener(onClickListener);
         clearhuancun.setOnClickListener(onClickListener);
         messageSettingBtn.setOnClickListener(onClickListener);
         settingBackBtn.setOnClickListener(onClickListener);
+        setWeiBoBtn.setOnClickListener(onClickListener);
+        aboutUsBtn.setOnClickListener(onClickListener);
     }
     //创建ClearDialog方法
     public void createClearDialog(){
@@ -132,7 +139,8 @@ public class SettingActivity extends Activity {
                 case R.id.exit_btn:
                     /*退出弹出框确认按钮点击事件*/
                     alertDialog.dismiss();
-                    Toast.makeText(SettingActivity.this,"恭喜您成功退出",Toast.LENGTH_LONG).show();
+                    intent=new Intent(SettingActivity.this,SetLoginActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.cance_btn:
                     /*退出弹出框取消按钮点击事件*/
@@ -177,7 +185,7 @@ public class SettingActivity extends Activity {
                     break;
                 case R.id.message_setting_btn:
                     //消息提示按钮监听事件
-                    Intent intent=new Intent(SettingActivity.this,MessageHintActivity.class);
+                    intent=new Intent(SettingActivity.this,MessageHintActivity.class);
                     startActivity(intent);
                     break;
                 case R.id.search_back_btn:
@@ -192,6 +200,15 @@ public class SettingActivity extends Activity {
                     break;
                 case R.id.volume_btn_to_Page:
                     /*设置音量键翻页按钮监听事件*/
+                    break;
+                case R.id.set_weiBo_btn:
+                    /*绑定微博按钮事件*/
+                    intent=new Intent(SettingActivity.this,SetWeiboActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.about_us_btn:
+                    intent=new Intent(SettingActivity.this,AboutUsActivity.class);
+                    startActivity(intent);
                     break;
             }
         }
