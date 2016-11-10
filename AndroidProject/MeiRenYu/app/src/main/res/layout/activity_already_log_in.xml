@@ -119,6 +119,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
         <LinearLayout
+            android:id="@+id/my_friend_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -148,6 +149,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"/>
         <LinearLayout
+            android:id="@+id/my_collection_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -177,6 +179,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"/>
         <LinearLayout
+            android:id="@+id/my_plan_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -206,6 +209,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"/>
         <LinearLayout
+            android:id="@+id/my_post_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -235,6 +239,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"/>
         <LinearLayout
+            android:id="@+id/relative_recommend_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -264,6 +269,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"/>
         <LinearLayout
+            android:id="@+id/share_app_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
