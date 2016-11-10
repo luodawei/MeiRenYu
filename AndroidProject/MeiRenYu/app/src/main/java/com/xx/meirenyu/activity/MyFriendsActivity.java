@@ -1,7 +1,10 @@
 package com.xx.meirenyu.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -25,8 +28,44 @@ public class MyFriendsActivity extends Activity {
         list=getData();
         String[] from = {"portrait","nickname","content","time","num"};
         int[] to = {R.id.portrait,R.id.friend_nickname,R.id.chat_content,R.id.chat_time,R.id.message_num};
+<<<<<<< HEAD:AndroidProject/MeiRenYu/app/src/main/java/meirenyu/MyFriends.java
+        myFriendList.setAdapter(new SimpleAdapter(MyFriends.this,list,R.layout.my_friends_item,from,to));
+        myFriendList.setOnItemClickListener(onItemClickListener);
+=======
         myFriendList.setAdapter(new SimpleAdapter(MyFriendsActivity.this,list,R.layout.my_friends_lv_item,from,to));
+>>>>>>> develop:AndroidProject/MeiRenYu/app/src/main/java/com/xx/meirenyu/activity/MyFriendsActivity.java
     }
+    AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            switch (position){
+                case 0:
+                    Intent intent = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent);
+                    break;
+                case 1:
+                    Intent intent1 = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent1);
+                    break;
+                case 2:
+                    Intent intent2 = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent2);
+                    break;
+                case 3:
+                    Intent intent3 = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent3);
+                    break;
+                case 4:
+                    Intent intent4 = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent4);
+                    break;
+                case 5:
+                    Intent intent5 = new Intent(MyFriends.this,ChatPage.class);
+                    startActivity(intent5);
+                    break;
+            }
+        }
+    };
     public List<HashMap<String,Object>> getData(){
         List<HashMap<String,Object>> list = new ArrayList<HashMap<String, Object>>();
         for (int i=0;i<12;i++){

@@ -71,6 +71,7 @@
             android:background="@drawable/set_visibility"/>
     </RelativeLayout>
     <TextView
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
@@ -82,6 +83,7 @@
         android:textSize="20sp"
         android:text="@string/register_now"/>
     <TextView
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
