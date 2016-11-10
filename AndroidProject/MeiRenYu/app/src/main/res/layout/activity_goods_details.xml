@@ -10,14 +10,14 @@
         android:layout_height="wrap_content"
         android:background="@color/head_green">
         <TextView
-            android:id="@+id/search_back_btn"
+            android:id="@+id/back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@mipmap/back_btn"
             android:layout_margin="12dp"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:id="@+id/search_title_textview"
+            android:id="@+id/search_title_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/search_title_name"
@@ -66,7 +66,7 @@
             android:paddingTop="3dp"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:id="@+id/baoypu_address"
+            android:id="@+id/receive_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="重庆"
@@ -82,25 +82,42 @@
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:background="@color/white">
-    <TextView
-        android:layout_marginTop="5dp"
+    <!--分类-->
+    <LinearLayout
+        android:id="@+id/shop_class_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="颜色，分类"
-        android:textColor="@color/font_white"
+        android:orientation="horizontal"
         android:background="@color/head_green"
-        android:paddingTop="13dp"
-        android:paddingBottom="8dp"
-        android:paddingLeft="12dp"
-        android:textSize="15sp"
-        android:drawableRight="@mipmap/back_right"
-        android:paddingRight="12dp"/>
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="颜色，分类"
+            android:textColor="@color/font_white"
+            android:paddingTop="13dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:textSize="15sp"
+            android:paddingRight="12dp"/>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+           android:background="@mipmap/back_right"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+           />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true">
         <TextView
+            android:id="@+id/add_to_shop_car"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -112,6 +129,7 @@
             android:paddingTop="17dp"
             android:paddingBottom="17dp"/>
         <TextView
+            android:id="@+id/buy_now_btn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

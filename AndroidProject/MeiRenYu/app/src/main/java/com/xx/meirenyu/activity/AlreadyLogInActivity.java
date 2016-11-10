@@ -34,7 +34,6 @@ public class AlreadyLogInActivity extends Activity {
         myPostLayout.setOnClickListener(onClickListener);
         relativeRecommendLayout.setOnClickListener(onClickListener);
         shareAppLayout.setOnClickListener(onClickListener);
-
     }
     View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
