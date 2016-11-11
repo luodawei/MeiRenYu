@@ -28,6 +28,7 @@ public class AlreadyLogInActivity extends Activity {
         myPostLayout = (LinearLayout) findViewById(R.id.my_post_layout);
         relativeRecommendLayout = (LinearLayout) findViewById(R.id.relative_recommend_layout);
         shareAppLayout = (LinearLayout) findViewById(R.id.share_app_layout);
+
         myFriendLayout.setOnClickListener(onClickListener);
         myPlanLayout.setOnClickListener(onClickListener);
         myCollectionLayout.setOnClickListener(onClickListener);
@@ -48,15 +49,15 @@ public class AlreadyLogInActivity extends Activity {
                     startActivity(intent1);
                     break;
                 case R.id.my_post_layout:
-                    Intent intent2 = new Intent(AlreadyLogInActivity.this,MyPlanListViewActivity.class);
+                    Intent intent2 = new Intent(AlreadyLogInActivity.this,YogaWoDeTieZiActivity.class);
                     startActivity(intent2);
                     break;
                 case R.id.my_collection_layout:
-                    Intent intent3 = new Intent(AlreadyLogInActivity.this,MyPlanListViewActivity.class);
+                    Intent intent3 = new Intent(AlreadyLogInActivity.this,YogaMyCollectLvActivity.class);
                     startActivity(intent3);
                     break;
                 case R.id.relative_recommend_layout:
-                    Intent intent4 = new Intent(AlreadyLogInActivity.this,MyFriendsActivity.class);
+                    Intent intent4 = new Intent(AlreadyLogInActivity.this,PushAboutAppLvActivity.class);
                     startActivity(intent4);
                     break;
                 case R.id.share_app_layout:
