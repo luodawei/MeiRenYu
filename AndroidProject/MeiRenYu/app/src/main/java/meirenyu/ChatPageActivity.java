@@ -9,10 +9,10 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/25.
  */
 
-public class AboutUs extends Activity {
+public class ChatPageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about_us);
+        setContentView(R.layout.activity_chat_page);
     }
 }

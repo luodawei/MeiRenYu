@@ -18,17 +18,28 @@
         <activity android:name=".ServicerActivity"/>//客服页面
         <activity android:name=".GoodsSearchActivity"/>商品搜索页面
         <activity android:name=".MessageTiShiActivity"/>消息提示页面
-        <activity android:name="meirenyu.Login"/><!--我的页面-->
-        <activity android:name="meirenyu.MyFriends"/><!--我的好友页-->
-        <activity android:name="meirenyu.MyPlanDetail"/><!--我的计划详情页-->
-        <activity android:name="meirenyu.MyPlanList"/><!--我的计划列表页-->
-        <activity android:name="meirenyu.SetLogin"/><!--登录页面-->
-        <activity android:name="meirenyu.SetWeibo"/><!--绑定微博-->
-        <activity android:name="meirenyu.SetRegister"/><!--注册页面-->
-        <activity android:name="meirenyu.ShareApp"/><!--软件分享页面-->
-        <activity android:name="meirenyu.AboutUs"/><!--关于我们页面-->
-        <activity android:name="meirenyu.ChatPage"/><!--好友聊天页面-->
-        <activity android:name="meirenyu.HaveLoggedIn"/><!--登录完成页面-->
+        <activity android:name="meirenyu.LoginActivity"/><!--我的页面-->
+        <activity android:name="meirenyu.MyFriendsActivity"/><!--我的好友页-->
+        <activity android:name="meirenyu.MyPlanDetailActivity"/><!--我的计划详情页-->
+        <activity android:name="meirenyu.MyPlanListActivity"/><!--我的计划列表页-->
+        <activity android:name="meirenyu.SetLoginActivity"/><!--登录页面-->
+        <activity android:name="meirenyu.SetWeiboActivity"/><!--绑定微博-->
+        <activity android:name="meirenyu.SetRegisterActivity"/><!--注册页面-->
+        <activity android:name="meirenyu.ShareAppActivity"/><!--软件分享页面-->
+        <activity android:name="meirenyu.AboutUsActivity"/><!--关于我们页面-->
+        <activity android:name="meirenyu.ChatPageActivity"/><!--好友聊天页面-->
+        <activity android:name="meirenyu.HaveLoggedInActivity"/><!--登录完成页面-->
+
+        <activity android:name="com.xxc.meirenyu.XiangGuanTuiJianActivity"/>//相关推荐页面
+        <activity android:name="com.xxc.meirenyu.ShopCartEmptyActivity" android:launchMode="singleTop"/>//空白购物车页面
+        <activity android:name="com.xxc.meirenyu.ShopCartSpaceActivity" android:launchMode="singleTop"/>//清空购物车页面
+        <activity android:name="com.xxc.meirenyu.ShopCartEditingActivity" android:launchMode="singleTop"/>//结算购物车页面
+        <activity android:name="com.xxc.meirenyu.MyOrderActivity" android:launchMode="singleTop"/>//我的订单页面
+        <activity android:name="com.xxc.meirenyu.ChangePasswordActivity"/>//修改密码页面
+        <activity android:name="com.xxc.meirenyu.JiFenActivity"/>//积分页面
+        <activity android:name="com.xxc.meirenyu.SuggestionActivity"/>//建议页面
+
+
 
     </application>
 </manifest>

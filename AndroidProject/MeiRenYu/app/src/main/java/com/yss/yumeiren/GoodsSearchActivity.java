@@ -26,7 +26,7 @@ public class GoodsSearchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.goods_search_layout);
+        setContentView(R.layout.activity_goods_search_layout);
         /*初始化*/
         searchHotBtn= (TextView) findViewById(R.id.search_hot);
         searchHistoryBtn= (TextView) findViewById(R.id.search_history);

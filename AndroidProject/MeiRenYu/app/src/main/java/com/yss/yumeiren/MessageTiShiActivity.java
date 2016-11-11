@@ -13,13 +13,13 @@ public class MessageTiShiActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.message_tishi);
+        setContentView(R.layout.activity_message_tishi);
         backBtn= (TextView) findViewById(R.id.search_back_btn);
 
         //设置监听
         backBtn.setOnClickListener(onClickListener);
     }
-//点击事件监听器
+        //点击事件监听器
     View.OnClickListener onClickListener=new View.OnClickListener() {
         @Override
         public void onClick(View v) {

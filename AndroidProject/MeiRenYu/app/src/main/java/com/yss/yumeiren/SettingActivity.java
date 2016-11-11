@@ -36,7 +36,7 @@ public class SettingActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.setting_layout);
+        setContentView(R.layout.activity_setting_layout);
         clearhuancun= (TextView) findViewById(R.id.clear_huancun);
         exitText= (TextView) findViewById(R.id.exit_text);
         fontsetting= (TextView) findViewById(R.id.font_setting);
@@ -53,7 +53,7 @@ public class SettingActivity extends Activity {
     public void createClearDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View view=layoutInflater.inflate(R.layout.clear_huancun_dialog,null);
+        View view=layoutInflater.inflate(R.layout.activity_clear_huancun_dialog,null);
         //给确认和取消设置监听
         yesBtn= (Button) view.findViewById(R.id.yes);
         noBtn= (Button) view.findViewById(R.id.no);
@@ -71,7 +71,7 @@ public class SettingActivity extends Activity {
     public void createExitDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View view=layoutInflater.inflate(R.layout.exit_dialog_layout,null);
+        View view=layoutInflater.inflate(R.layout.activity_exit_dialog_layout,null);
         //给确认和取消设置监听
         exitBtn= (TextView) view.findViewById(R.id.exit_btn);
         canceBtn= (Button) view.findViewById(R.id.cance_btn);
@@ -89,7 +89,7 @@ public class SettingActivity extends Activity {
     public void createFontDialog(){
         layoutInflater=LayoutInflater.from(this);
         builder=new AlertDialog.Builder(this);
-        View fontView=layoutInflater.inflate(R.layout.font_listview_item,null);
+        View fontView=layoutInflater.inflate(R.layout.activity_font_listview_item,null);
         xiaohao=(TextView)fontView.findViewById(R.id.font_xiao);
         xiaohao.setOnClickListener(onClickListener);
         biaozhun=(TextView)fontView.findViewById(R.id.font_biaozhun);

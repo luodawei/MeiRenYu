@@ -15,12 +15,12 @@ import meirenyu.adapter.MyPlanAdapter;
  * Created by David on 2016/10/23.
  */
 
-public class MyPlanList extends Activity {
+public class MyPlanListActivity extends Activity {
     List<HashMap<String,Object>> list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_plan_list);
+        setContentView(R.layout.activity_my_plan_list);
         ListView listView = (ListView)findViewById(R.id.my_plan_list);
         listView.setAdapter(new MyPlanAdapter(this));
     }

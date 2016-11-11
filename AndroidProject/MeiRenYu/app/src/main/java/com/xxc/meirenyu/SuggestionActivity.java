@@ -1,4 +1,4 @@
-package meirenyu;
+package com.xxc.meirenyu;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,13 +6,12 @@ import android.os.Bundle;
 import com.yss.yumeiren.R;
 
 /**
- * Created by David on 2016/10/25.
+ * Created by Administrator on 2016/11/9.
  */
-
-public class ChatPage extends Activity {
+public class SuggestionActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chat_page);
+        setContentView(R.layout.activity_suggestion);
     }
 }

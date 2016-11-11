@@ -24,20 +24,20 @@ public class ServicerActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.customer_servicer);
+        setContentView(R.layout.activity_customer_servicer);
         List<HashMap<String,Object>> list=getMessageDate();
         ListView serviceMessageListView= (ListView) findViewById(R.id.servicer_listview);
         if(isServicer){
             SimpleAdapter simpleAdapter=new SimpleAdapter(this,
                     list,
-                    R.layout.servicer_message,
+                    R.layout.activity_servicer_message,
                     from,
                     to);
             serviceMessageListView.setAdapter(simpleAdapter);
         }else{
             SimpleAdapter simpleAdapter=new SimpleAdapter(this,
                     list,
-                    R.layout.user_message,
+                    R.layout.activity_user_message,
                     from,
                     to);
             serviceMessageListView.setAdapter(simpleAdapter);

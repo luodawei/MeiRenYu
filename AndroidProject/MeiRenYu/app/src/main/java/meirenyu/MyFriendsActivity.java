@@ -15,17 +15,17 @@ import java.util.List;
  * Created by David on 2016/10/25.
  */
 
-public class MyFriends extends Activity {
+public class MyFriendsActivity extends Activity {
     List<HashMap<String,Object>> list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_friends);
+        setContentView(R.layout.activity_my_friends);
         ListView myFriendList = (ListView)findViewById(R.id.my_friend_list);
         list=getData();
         String[] from = {"portrait","nickname","content","time","num"};
         int[] to = {R.id.portrait,R.id.friend_nickname,R.id.chat_content,R.id.chat_time,R.id.message_num};
-        myFriendList.setAdapter(new SimpleAdapter(MyFriends.this,list,R.layout.my_friends_item,from,to));
+        myFriendList.setAdapter(new SimpleAdapter(MyFriendsActivity.this,list,R.layout.activity_my_friends_item,from,to));
     }
     public List<HashMap<String,Object>> getData(){
         List<HashMap<String,Object>> list = new ArrayList<HashMap<String, Object>>();

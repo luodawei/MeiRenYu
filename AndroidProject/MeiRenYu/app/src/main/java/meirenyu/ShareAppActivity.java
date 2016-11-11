@@ -9,10 +9,10 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/23.
  */
 
-public class HaveLoggedIn extends Activity {
+public class ShareAppActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.have_logged_in);
+        setContentView(R.layout.activity_share_app);
     }
 }

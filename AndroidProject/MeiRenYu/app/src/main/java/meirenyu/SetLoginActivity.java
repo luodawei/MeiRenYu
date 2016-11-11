@@ -1,15 +1,18 @@
-package com.yss.yumeiren;
+package meirenyu;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.yss.yumeiren.R;
+
 /**
- * Created by Administrator on 2016/10/19.
+ * Created by David on 2016/10/24.
  */
-public class GoodsDetailaActivity extends Activity {
+
+public class SetLoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_goods_details_layout);
+        setContentView(R.layout.activity_set_login);
     }
 }

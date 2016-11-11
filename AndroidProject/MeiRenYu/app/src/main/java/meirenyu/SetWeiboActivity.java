@@ -9,10 +9,10 @@ import com.yss.yumeiren.R;
  * Created by David on 2016/10/25.
  */
 
-public class SetWeibo extends Activity {
+public class SetWeiboActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.set_weibo);
+        setContentView(R.layout.activity_set_weibo);
     }
 }
