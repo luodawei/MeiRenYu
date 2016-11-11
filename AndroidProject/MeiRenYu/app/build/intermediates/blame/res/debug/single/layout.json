@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_online_service_lv.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_online_service_lv.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yoga_wodeshoucang.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\yoga_wodeshoucang.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_my_collect_lv.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_my_collect_lv.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_my_collect_lv_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_my_collect_lv_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_app.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_share_app.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_wodetiezi.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_wodetiezi.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\push_about_app_lv_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\push_about_app_lv_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_page.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_chat_page.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggestion.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_suggestion.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_clear_cache.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\dialog_clear_cache.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_cushion.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_cushion.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_xianshizhekou.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_xianshizhekou.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_clothes.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_clothes.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shangcheng_loading.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_shangcheng_loading.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_set_font.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\dialog_set_font.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\online_service_lv_user_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\online_service_lv_user_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_log_off.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\dialog_log_off.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_order.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_my_order.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_hint.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_message_hint.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_details.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_goods_details.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_plan_lv.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_my_plan_lv.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_shop.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_shop.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_plan.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_plan.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_push_about_app_lv.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_push_about_app_lv.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_search.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_search.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_search.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_goods_search.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_integral_gift.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_integral_gift.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\online_service_lv_server_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\online_service_lv_server_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_friends_lv.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_my_friends_lv.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_already_log_in.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_already_log_in.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_friends_lv_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\my_friends_lv_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_plan_detail.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_my_plan_detail.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_plan_lv_item.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\my_plan_lv_item.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_register.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_set_register.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shangcheng_problem.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_shangcheng_problem.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yoga_others_shop.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_yoga_others_shop.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_integral.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_integral.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_cart_kongbai.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_shop_cart_kongbai.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_weibo.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_set_weibo.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_login.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_set_login.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_cart_clear.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_shop_cart_clear.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_cart_jiesuan.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\src\\main\\res\\layout\\activity_shop_cart_jiesuan.xml"
+    },
+    {
+        "merged": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\Documents\\MeiRenYu\\AndroidProject\\MeiRenYu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    }
+]
