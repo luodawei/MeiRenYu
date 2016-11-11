@@ -10,6 +10,7 @@ import com.yss.yumeiren.R;
 
 /**
  * Created by David on 2016/10/25.
+ * 设置微博页面
  */
 
 public class SetWeiboActivity extends Activity {

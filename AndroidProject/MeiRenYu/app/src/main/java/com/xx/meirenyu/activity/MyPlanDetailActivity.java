@@ -10,6 +10,7 @@ import com.yss.yumeiren.R;
 
 /**
  * Created by David on 2016/10/23.
+ * 我的计划详情
  */
 
 public class MyPlanDetailActivity extends Activity {
