@@ -17,6 +17,7 @@ import com.yss.yumeiren.R;
 
 /**
  * Created by Administrator on 2016/10/19.
+ * 系统设置页面
  */
 public class SettingActivity extends Activity {
     TextView clearhuancun;//清除缓存按钮

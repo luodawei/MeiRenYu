@@ -16,6 +16,7 @@ import java.util.List;
 
 /**
  * Created by David on 2016/10/25.
+ * 我的朋友列表页面
  */
 
 public class MyFriendsActivity extends Activity {

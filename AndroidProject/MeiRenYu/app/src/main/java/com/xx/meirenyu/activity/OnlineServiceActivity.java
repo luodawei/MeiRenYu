@@ -13,6 +13,7 @@ import java.util.List;
 /*这个是客服聊天页面的Activity*/
 /**
  * Created by Administrator on 2016/10/22.
+ * 在线客服页面
  */
 public class OnlineServiceActivity extends Activity {
     boolean isServicer=false;//布尔值来判断是谁发的消息

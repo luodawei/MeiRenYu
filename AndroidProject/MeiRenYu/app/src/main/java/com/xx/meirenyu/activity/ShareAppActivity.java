@@ -7,6 +7,7 @@ import com.yss.yumeiren.R;
 
 /**
  * Created by David on 2016/10/23.
+ * 分享App页面
  */
 
 public class ShareAppActivity extends Activity {
